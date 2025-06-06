@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
  
 
 
-  // Typed.js effect for the Home section
+  
   const typed = new Typed("#typed-text", {
     strings: ["An Aspiring Data Scientist", "A Tech Enthusiast", "A Problem Solver"],
     typeSpeed: 50,
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
     cursorChar: "|",
   });
 
-  // Reveal on scroll
+  
 const reveals = document.querySelectorAll('.reveal');
 
 const observer = new IntersectionObserver((entries) => {
@@ -65,7 +65,7 @@ const observer = new IntersectionObserver((entries) => {
 reveals.forEach(reveal => {
   observer.observe(reveal);
 });
-// Extracurriculars Carousel Logic
+
 let currentEvent = 0;
 const eventCards = document.querySelectorAll(".event-card");
 const totalEvents = eventCards.length;
