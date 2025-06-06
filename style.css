@@ -8,7 +8,6 @@ body.dark-theme {
   padding: 0;
 }
 
-/* Make layout flexible for mobile */
 * {
   box-sizing: border-box;
 }
@@ -238,8 +237,6 @@ footer {
   transform: translateY(-5px);
 }
 
-/* Remaining CSS unchanged for brevity */
-
 #skills h2 {
   font-size: 2rem;
   color: #00bcd4;
@@ -363,7 +360,6 @@ footer {
   margin-top: 0.5rem;
 }
 
-/* ========== RESPONSIVE STYLING ========== */
 
 @media screen and (max-width: 768px) {
   #resume {
@@ -458,7 +454,6 @@ footer {
   color: #000000;
 }
 
-/* ========== RESPONSIVE STYLING ========== */
 
 @media screen and (max-width: 768px) {
   .nav-btn {
@@ -511,7 +506,6 @@ footer {
   border-radius: 6px;
 }
 
-/* ========== RESPONSIVE STYLING ========== */
 
 @media screen and (max-width: 768px) {
   .event-carousel {
@@ -557,7 +551,6 @@ footer {
   transition: all 0.3s ease;
 }
 
-/* Hide nav-links and show hamburger on small screens */
 @media screen and (max-width: 768px) {
   .nav-links {
     position: absolute;
@@ -601,7 +594,6 @@ footer {
   color: #00bcd4;
 }
 
-/* ========== RESPONSIVE HERO STYLING ========== */
 
 @media screen and (max-width: 768px) {
   .hero {
